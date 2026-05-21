@@ -444,6 +444,7 @@ function deleteAll(){
     document.getElementById("goNext").style.backgroundColor="rgb(255, 255, 255)";
     document.getElementById("goNext").style.color="rgb(0, 0, 0)";
     typingOn="first whole start";
+    term=false;
 }
 
 //Inserting commas in a number
