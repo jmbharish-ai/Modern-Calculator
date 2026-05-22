@@ -2,7 +2,7 @@
 var typingOn="first whole start";
 
 //Max number of terms
-var maxTerms=15;
+var maxTerms=100;
 
 //List fractions inputted
 var firstWhole=0n;
