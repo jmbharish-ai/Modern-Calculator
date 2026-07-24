@@ -166,33 +166,33 @@ function calculate(){
         nextFraction=new Fraction(nextFraction);
         const theOperation=operation.innerHTML;
         if(theOperation=="+"){
-            var answer=firstFraction.addition(nextFraction);
-            if(canDisplay(answer))
-                answer.innerHTML=answer.display();
+            var theAnswer=firstFraction.addition(nextFraction);
+            if(canDisplay(theAnswer))
+                answer.innerHTML=theAnswer.display();
             else
                 answer.innerHTML="Can't Display";
         }else if(theOperation=="-"){
             if(firstFraction.greaterEqual(nextFraction)){
-                var answer=firstFraction.subtraction(nextFraction);
-                if(canDisplay(answer))
-                    answer.innerHTML=answer.display();
+                var theAnswer=firstFraction.subtraction(nextFraction);
+                if(canDisplay(theAnswer))
+                    answer.innerHTML=theAnswer.display();
                 else
                     answer.innerHTML="Can't Display";
             }else
                 answer.innerHTML="Error";
         }else if(theOperation=="×"){
-            var answer=firstFraction.multiplication(nextFraction);
-            if(canDisplay(answer))
-                answer.innerHTML=answer.display();
+            var theAnswer=firstFraction.multiplication(nextFraction);
+            if(canDisplay(theAnswer))
+                answer.innerHTML=theAnswer.display();
             else
                 answer.innerHTML="Can't Display";
         }else if(theOperation=="÷"){
             if(nextFraction.equals(new Fraction("0")))
                 answer.innerHTML="Error";
             else{
-                var answer=firstFraction.division(nextFraction);
-                if(canDisplay(answer))
-                    answer.innerHTML=answer.display();
+                var theAnswer=firstFraction.division(nextFraction);
+                if(canDisplay(theAnswer))
+                    answer.innerHTML=theAnswer.display();
                 else
                     answer.innerHTML="Can't Display";
             }
