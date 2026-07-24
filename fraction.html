@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fraction</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Fraction</h1>
+        <button style="width: 200px;" onclick="deleteAll()">Delete All</button>
+        <br><br>
+
+        <label id="first" style="width: 500px; font-size: 15px;"></label>
+        <label id="operation" style="width: 50px;"></label>
+        <label id="next" style="width: 500px; font-size: 15px;"></label>
+        <label style="width: 50px;" onclick="calculate()">=</label>
+        <label id="answer" style="width: 500px; font-size: 15px;"></label>
+        <br>
+
+        <button onclick="typeDigit('0')">0</button>
+        <button onclick="typeDigit('1')">1</button>
+        <button onclick="typeDigit('2')">2</button>
+        <button onclick="typeDigit('3')">3</button>
+        <button onclick="typeDigit('4')">4</button>
+        <button onclick="typeDigit('5')">5</button>
+        <button onclick="typeDigit('6')">6</button>
+        <button onclick="typeDigit('7')">7</button>
+        <button onclick="typeDigit('8')">8</button>
+        <button onclick="typeDigit('9')">9</button>
+        <br><br>
+
+        <button onclick="typeOperation('+')">+</button>
+        <button onclick="typeOperation('-')">-</button>
+        <button onclick="typeOperation('×')">×</button>
+        <button onclick="typeOperation('÷')">÷</button>
+        <br><br>
+
+        <button id="nextPlace" style="width: 100px;" onclick="goNext()">Next</button>
+        <br><br>
+        <button style="width: 200px;" onclick="location.href='index.html';">Home</button>
+        <script type="module" src="fraction.js"></script>
+    </body>
+</html>
