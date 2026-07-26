@@ -1,4 +1,4 @@
-import {Fraction} from './FractionClass.js';
+import {Fraction} from './Fraction.js';
 
 const maxWhole=999999999999999n;
 const maxNumberInPlace=999n;
