@@ -136,7 +136,8 @@ export class Fraction{
             answerUp=answerUp%answerDown;
         }
 
-        var fraction=new Fraction(String(whole));
+        var fraction=new Fraction("0");
+        fraction.whole=whole;
         fraction.fraction=fractionPart;
         return fraction;
     }
