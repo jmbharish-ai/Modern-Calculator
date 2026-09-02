@@ -2,7 +2,7 @@ import {Fraction} from './Fraction.js';
 
 const maxWhole=999n;
 const maxNumberInPlace=999n;
-const maxPlaces=10;
+const maxPlaces=5;
 const first=document.getElementById("first");
 const operation=document.getElementById("operation");
 const next=document.getElementById("next");
