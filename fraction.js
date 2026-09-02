@@ -1,6 +1,6 @@
 import {Fraction} from './Fraction.js';
 
-const maxWhole=999999999999999n;
+const maxWhole=999n;
 const maxNumberInPlace=999n;
 const maxPlaces=10;
 const first=document.getElementById("first");
